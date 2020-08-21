@@ -5,6 +5,7 @@ import { userSingedIn } from '../../stateManager/actionCreator';
 import { useAppState } from '../../context/appStateContext';
 import { useHistory } from 'react-router-dom';
 
+
 export default function Index() {
   const [name, setName] = useState('');
   const { userId } = useAppState();
